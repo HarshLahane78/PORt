@@ -1,10 +1,11 @@
 {
 	"name": "reactfolio",
+	"homepage": "https://HarshLahane78.github.io/My_Portfilio",
 	"version": "1.1.0",
 	"description": "Personal portfolio template built using Reactjs",
 	"author": {
-		"name": "Tharindu N. Madhusanka",
-		"email": "mail@tharindu.dev",
+		"name": "Harshwardhan Lahane",
+		"email": "harshwardhanlahane633@gmail.com",
 		"url": "https://tharindu.dev"
 	},
 	"license": "MIT",
@@ -31,7 +32,9 @@
 		"start": "react-scripts start",
 		"build": "react-scripts build",
 		"test": "react-scripts test",
-		"eject": "react-scripts eject"
+		"eject": "react-scripts eject",
+		"predeploy": "npm run rebuild",
+		"deploy": "gh-pages -d build"
 	},
 	"eslintConfig": {
 		"extends": [
@@ -57,10 +60,5 @@
 	},
 	"devDependencies": {
 		"gh-pages": "^6.2.0"
-	},
-	"homepage": "https://HarshLahane78.github.io/My_Portfilio",
-	"scripts":{
-		"predeploy" : "npm run rebuild",
-		"deploy" : "gh-pages -d build" 
 	}
 }
